@@ -13,7 +13,8 @@ const isGitHubPages = process.env.GITHUB_PAGES === "true";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "美容百科前端文件",
-  tagline: "123",
+  tagline:
+    "本文件提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟，與各類操作說明、注意事項",
   favicon: "img/favicon.ico",
 
   // 設定 github page 相關 start
@@ -30,9 +31,23 @@ const config = {
   onBrokenMarkdownLinks: "warn",
 
   i18n: {
-    defaultLocale: "zh-Hans", // "en"
-    locales: ["zh-Hans"],
+    defaultLocale: "zh-Hant", // "en"
+    locales: ["zh-Hant"],
+    localeConfigs: {
+      "zh-Hant": {
+        label: "繁體中文",
+        direction: "ltr",
+        htmlLang: "zh-Hant",
+      },
+    },
   },
+
+  stylesheets: [
+    {
+      href: "./src/css/custom.css",
+      type: "text/css",
+    },
+  ],
 
   presets: [
     [
@@ -97,6 +112,24 @@ const config = {
         style: "dark",
         links: [
           {
+            title: "關於我們",
+            items: [
+              {
+                label: "美容百科網站",
+                href: "https://beauty.kinglyrobot.com/",
+              },
+            ],
+          },
+          {
+            title: "使用指南",
+            items: [
+              {
+                label: "如何使用",
+                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              },
+            ],
+          },
+          {
             title: "Community",
             items: [
               {
@@ -128,6 +161,11 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      colorMode: {
+        defaultMode: "dark", // 預設主題模式 (light or dark)
+        disableSwitch: false, // 是否禁用切換按鈕
+        respectPrefersColorScheme: true, // 根據瀏覽器設定自動切換主題
       },
     }),
 };
