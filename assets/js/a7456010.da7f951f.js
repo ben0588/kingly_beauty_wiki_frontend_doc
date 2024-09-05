@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkingly_beauty_wiki_frontend_doc=self.webpackChunkkingly_beauty_wiki_frontend_doc||[]).push([[235],{8552:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
