@@ -6,6 +6,10 @@
 
 import { themes as prismThemes } from "prism-react-renderer";
 
+// 判斷當前環境是否是 vercel 還是 github pages
+const isVercel = process.env.VERCEL === "true";
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "美容百科前端文件",
@@ -13,8 +17,11 @@ const config = {
   favicon: "img/favicon.ico",
 
   // 設定 github page 相關 start
-  url: "https://kingly_beauty_wiki_frontend_doc.github.io",
-  baseUrl: "/kingly_beauty_wiki_frontend_doc/",
+  url: isVercel
+    ? "https://kingly-beauty-wiki-frontend-doc-gyrm.vercel.app/"
+    : "https://kingly_beauty_wiki_frontend_doc.github.io",
+  baseUrl: isGitHubPages ? "/kingly_beauty_wiki_frontend_doc/" : "/",
+
   organizationName: "kingly_beauty_wiki",
   projectName: "kingly_beauty_wiki_frontend_doc",
   // 設定 github page 相關 end
