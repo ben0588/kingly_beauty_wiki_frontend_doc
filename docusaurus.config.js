@@ -87,7 +87,7 @@ const config = {
             label: '文件',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ben0588/kingly_beauty_wiki_frontend_doc',
             label: 'GitHub',
             position: 'right',
           },
