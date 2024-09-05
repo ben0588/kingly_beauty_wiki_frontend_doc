@@ -1,9 +1,8 @@
 {
-    "label": "快速入門",
-    "position": 1,
-    "link": {
-      "type": "generated-index",
-      "description": "此章節提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟。"
-    }
+  "label": "快速入門",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "此章節提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟。"
   }
-  
+}
