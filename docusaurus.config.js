@@ -12,7 +12,7 @@ const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "美容百科前端文件",
+  title: "美容百科前端文件2",
   tagline:
     "本文件提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟，與各類操作說明、注意事項",
   favicon: "img/favicon.ico",
