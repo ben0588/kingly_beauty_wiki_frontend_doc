@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 console.log("process.env.", process.env);
 // 判斷當前環境是否是 vercel 還是 github pages
-const isVercel = process.env.VERCEL === "true";
+const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
 /** @type {import('@docusaurus/types').Config} */
