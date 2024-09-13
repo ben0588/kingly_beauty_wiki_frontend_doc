@@ -5,28 +5,25 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from "prism-react-renderer";
-
-console.log("process.env.", process.env);
 // 判斷當前環境是否是 vercel 還是 github pages
 const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
-const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "美容百科前端文件2",
+  title: "美容百科前端文件3",
   tagline:
     "本文件提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟，與各類操作說明、注意事項",
   favicon: "img/favicon.ico",
 
-  // 設定 github page 相關 start
+  // 設定當前連接 vercel 還是 github page 設定 start
   url: isVercel
     ? "https://kingly-beauty-wiki-frontend-doc-gyrm.vercel.app/"
     : "https://kingly_beauty_wiki_frontend_doc.github.io",
-  baseUrl: isGitHubPages ? "/kingly_beauty_wiki_frontend_doc/" : "/",
+  baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_frontend_doc/",
 
   organizationName: "kingly_beauty_wiki",
   projectName: "kingly_beauty_wiki_frontend_doc",
-  // 設定 github page 相關 end
+  // 設定當前連接 vercel 還是 github page 設定 end
 
   onBrokenLinks: "throw", // 'ignore' 允許建構失敗仍繼續，或者 'log' 來記錄錯誤但不阻止構建
   onBrokenMarkdownLinks: "warn",
