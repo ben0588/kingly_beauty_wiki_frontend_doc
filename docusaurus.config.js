@@ -10,7 +10,7 @@ const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "美容百科前端文件3",
+  title: "美容百科前端文件",
   tagline:
     "本文件提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟，與各類操作說明、注意事項",
   favicon: "img/favicon.ico",
@@ -110,7 +110,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "關於我們",
+            title: "更多連結",
             items: [
               {
                 label: "美容百科網站",
@@ -118,43 +118,8 @@ const config = {
               },
             ],
           },
-          {
-            title: "使用指南",
-            items: [
-              {
-                label: "如何使用",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}. 王道機器人股份有限公司`,
       },
       prism: {
         theme: prismThemes.github,
