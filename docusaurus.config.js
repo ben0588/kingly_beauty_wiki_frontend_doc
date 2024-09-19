@@ -131,6 +131,15 @@ const config = {
         respectPrefersColorScheme: true, // 根據瀏覽器設定自動切換主題
       },
     }),
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en", "zh"],
+      },
+    ],
+  ],
 };
 
 export default config;
