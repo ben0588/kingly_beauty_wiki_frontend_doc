@@ -4,8 +4,9 @@
 
 ## 連結說明
 
-- [前端文件連結：GitHub Pages 版本](https://ben0588.github.io/kingly_beauty_wiki_frontend_doc/)
-- [前端文件連結：Vercel 版本](https://kingly-beauty-wiki-frontend-doc-gyrm-7xfyqfesz.vercel.app/)
+- [美容百科前端網站連結](https://beauty.kinglyrobot.com/)
+- [美容百科前端文件連結：GitHub Pages 版本](https://ben0588.github.io/kingly_beauty_wiki_frontend_doc/)
+- [美容百科前端文件連結：Vercel 版本](https://kingly-beauty-wiki-frontend-doc-gyrm-7xfyqfesz.vercel.app/)
 
 ## 使用技術
 
