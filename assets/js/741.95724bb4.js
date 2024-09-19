@@ -1,0 +1,1 @@
+(self.webpackChunkkingly_beauty_wiki_frontend_doc=self.webpackChunkkingly_beauty_wiki_frontend_doc||[]).push([[741],{5741:()=>{}}]);
