@@ -108,17 +108,17 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "更多連結",
-            items: [
-              {
-                label: "美容百科網站",
-                href: "https://beauty.kinglyrobot.com/",
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: "更多連結",
+        //     items: [
+        //       {
+        //         label: "美容百科網站",
+        //         href: "https://beauty.kinglyrobot.com/",
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()}. 王道機器人股份有限公司`,
       },
       prism: {

@@ -16,7 +16,13 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
 
-        <p className="">{siteConfig.tagline}</p>
+        <p>{siteConfig.tagline}</p>
+        <Link
+          to="/docs/getting-started/how-to-use"
+          className="button bg-secondarye button--lg"
+        >
+          前往查看
+        </Link>
       </div>
     </header>
   );
