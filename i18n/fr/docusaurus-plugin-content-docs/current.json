@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.快速入門": {
+    "message": "快速入門",
+    "description": "The label for category 快速入門 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.快速入門.link.generated-index.description": {
+    "message": "此章節提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟。",
+    "description": "The generated-index page description for category 快速入門 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.網站功能介紹": {
+    "message": "網站功能介紹",
+    "description": "The label for category 網站功能介紹 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.網站功能介紹.link.generated-index.description": {
+    "message": "此章節將詳細介紹本網站功能介紹。",
+    "description": "The generated-index page description for category 網站功能介紹 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.文章列表": {
+    "message": "文章列表",
+    "description": "The label for category 文章列表 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.文章列表.link.generated-index.description": {
+    "message": "此章節將詳細介紹本網站文章列表功能。",
+    "description": "The generated-index page description for category 文章列表 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.文章詳情": {
+    "message": "文章詳情",
+    "description": "The label for category 文章詳情 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.文章詳情.link.generated-index.description": {
+    "message": "此章節將詳細介紹文章詳情功能。",
+    "description": "The generated-index page description for category 文章詳情 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.會員功能": {
+    "message": "會員功能",
+    "description": "The label for category 會員功能 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.會員功能.link.generated-index.description": {
+    "message": "此章節將詳細介紹本網站會員功能。",
+    "description": "The generated-index page description for category 會員功能 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.搜尋功能": {
+    "message": "搜尋功能",
+    "description": "The label for category 搜尋功能 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.搜尋功能.link.generated-index.description": {
+    "message": "此章節將詳細介紹本網站搜尋功能。",
+    "description": "The generated-index page description for category 搜尋功能 in sidebar tutorialSidebar"
+  }
+}

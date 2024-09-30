@@ -136,7 +136,7 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        language: ["en", "zh"],
+        language: ["en", "zh"], // zh 等於支持 zh-Cn 與 zh-Hant (簡/繁)
       },
     ],
   ],

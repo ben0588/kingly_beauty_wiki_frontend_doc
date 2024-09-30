@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "美容百科前端文件",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.使用指南": {
+    "message": "使用指南",
+    "description": "Navbar item with label 使用指南"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
